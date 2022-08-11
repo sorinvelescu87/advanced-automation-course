@@ -25,7 +25,7 @@ public class BaseTest {
         given()
                 .when().post("https://parabank.parasoft.com/parabank/services/bank/initializeDB")
                 .then().log().all().statusCode(204);
-        System.setProperty("webdriver.chrome.driver", "/Users/sorinvelescu/Downloads/chromedriver7");
+//        System.setProperty("webdriver.chrome.driver", "/Users/sorinvelescu/Downloads/chromedriver7");
         this.driver = new ChromeDriver();
         this.driver.manage().window().maximize();
         this.navigate = new Navigation(this.driver);
