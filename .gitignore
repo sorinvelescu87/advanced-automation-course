@@ -62,3 +62,6 @@ fabric.properties
 
 # VSCode
 .vscode/
+
+# Stupid apple stuff 2
+.DS_Store

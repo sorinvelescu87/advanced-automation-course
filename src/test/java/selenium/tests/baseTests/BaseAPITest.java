@@ -11,8 +11,8 @@ public abstract class BaseAPITest {
     @BeforeEach
     public void beforeApi() {
         requestSpecification = new RequestSpecBuilder()
-//                .setBaseUri("https://parabank.parasoft.com/parabank/services/bank")
-                .setBaseUri("http://localhost:8080/parabank/services/bank")
+                .setBaseUri("https://parabank.parasoft.com/parabank/services/bank")
+//                .setBaseUri("http://localhost:8080/parabank/services/bank")
                 .setAccept(ContentType.JSON)
                 .setContentType(ContentType.JSON)
                 .build();
