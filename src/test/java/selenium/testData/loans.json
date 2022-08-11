@@ -1,0 +1,16 @@
+{
+    "approvedLoan": {
+        "amount": "1000",
+        "downPaymentAmount": "100",
+        "fromAccountNumber": "12345",
+        "loanStatus":  "Approved",
+        "approved": true
+    },
+    "deniedLoan": {
+        "amount": "10000",
+        "downPaymentAmount": "1000",
+        "fromAccountNumber": "13344",
+        "loanStatus":  "Denied",
+        "approved": false
+    }
+}
